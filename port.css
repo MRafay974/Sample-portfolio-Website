@@ -1,0 +1,667 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2d2e32;
+    padding: 40px 0;
+}
+
+.inner-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    color: white;
+    font-size: 24px;
+    margin-right: 62px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 261px;
+    font-size: 23px;
+}
+
+nav ul li {
+    margin-right: 20px;
+    transition: 0.5s;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: underline;
+    margin-right: 34px;
+}
+
+nav ul li:hover {
+    transform: scale(1.5);
+}
+
+.btn {
+    background-color: rgb(219, 187, 41);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.5);
+}
+
+
+/* projects */
+
+
+.project1 {
+    background-color: #444444;
+    position: relative;
+    top: -6px;
+}
+
+.st_project {
+
+    display: flex;
+
+
+}
+
+.writing1 {
+    flex: 1;
+}
+
+.image_of_project1 {
+    border-radius: 10%;
+    transform: rotate(3deg);
+    box-shadow: 15px 15px 25px 0 rgba(0, 0, 0, .10196078431372549);
+    overflow: hidden;
+}
+
+.project-profile {
+    overflow: hidden;
+    position: relative;
+    left: -30px;
+    padding: 20px;
+}
+
+.detail1 {
+    color: white;
+    width: 521px;
+    font-size: 21px;
+    position: relative;
+    top: 169px;
+    padding-left: 105px;
+}
+
+.topic1 {
+    color: white;
+    padding: 20px;
+    position: relative;
+    left: 85px;
+    font-size: 33px;
+    top: 117px;
+}
+
+.p1 {
+    color: rgb(219, 187, 41);
+    position: relative;
+    left: 107px;
+    top: 121px
+}
+
+.r1{
+    background-color: rgb(219, 187, 41);
+    padding: 4px 7px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    top: 214px;
+    left: 100px;
+    transition: 0.5s;
+
+}
+
+.r1:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+.project2 {
+    display: flex;
+    background-color: #444444;
+    position: relative;
+    top: -7px
+}
+
+.detail2 {
+    width: 467px;
+    position: relative;
+    left: 227px;
+    top: 112px;
+    color: white;
+    font-size: 19px;
+    padding: 20px;
+}
+
+
+.topic2 {
+    color: white;
+    position: relative;
+    left: 246px;
+    top: 85px;
+    font-size: 33px;
+}
+
+
+.p2 {
+    color: rgb(219, 187, 41);
+    position: relative;
+    left: 245px;
+    top: 57px
+}
+
+.image_of_project2 {
+    border-radius: 10%;
+    transform: rotate(3deg);
+    box-shadow: 15px 15px 25px 0 rgba(0, 0, 0, .10196078431372549);
+    overflow: hidden;
+    position: relative;
+    left: 52px
+}
+
+
+
+.r2{
+    background-color: rgb(219, 187, 41);
+    padding: 4px 7px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    top: 125px;
+    left: 243px;
+    transition: 0.5s;
+
+}
+
+.r2:hover{
+    transform: scale(1.5);
+}
+
+
+.project3 {
+    display: flex;
+    background-color: #444444;
+    position: relative;
+    top: -7px;
+}
+
+.writing3 {
+    flex: 1;
+}
+
+.detail3 {
+    color: white;
+    width: 500px;
+    position: relative;
+    top: 196px;
+    left: 100px;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.topic3 {
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 165px;
+    left: -163px;
+    font-size: 32px;
+
+}
+
+
+.p3 {
+    position: relative;
+    color: rgb(219, 187, 41);
+    top: 144px;
+    left: 118px;
+}
+
+.image_of_project3 {
+    border-radius: 10%;
+    transform: rotate(3deg);
+    box-shadow: 15px 15px 25px 0 rgba(0, 0, 0, .10196078431372549);
+    overflow: hidden;
+    position: relative;
+    left: -35px;
+
+}
+
+
+.r3{
+    background-color: rgb(219, 187, 41);
+    padding: 4px 7px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    top: 214px;
+    left: 117px;
+    transition: 0.5s;
+
+}
+
+.r3:hover{
+    transform: scale(1.5);
+}
+
+/* 4th project */
+
+
+
+.project4 {
+    display: flex;
+    background-color: #444444;
+    position: relative;
+    top: -7px
+}
+
+.detail4 {
+    width: 467px;
+    position: relative;
+    left: 227px;
+    top: 112px;
+    color: white;
+    font-size: 19px;
+    padding: 20px;
+}
+
+
+.topic4 {
+    color: white;
+    position: relative;
+    left: 246px;
+    top: 85px;
+    font-size: 33px;
+}
+
+
+.p4 {
+    color: rgb(219, 187, 41);
+    position: relative;
+    left: 245px;
+    top: 57px
+}
+
+.image_of_project4 {
+    border-radius: 10%;
+    transform: rotate(3deg);
+    box-shadow: 15px 15px 25px 0 rgba(0, 0, 0, .10196078431372549);
+    overflow: hidden;
+    position: relative;
+    left: 52px;
+}
+
+
+
+
+.r4{
+    background-color: rgb(219, 187, 41);
+    padding: 4px 7px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    top: 125px;
+    left: 243px;
+    transition: 0.5s;
+
+}
+
+.r4:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+/* 5th project */
+
+
+.project5 {
+    display: flex;
+    background-color: #444444;
+    position: relative;
+    top: -7px;
+}
+
+.writing5 {
+    flex: 1;
+}
+
+.detail5 {
+    color: white;
+    width: 500px;
+    position: relative;
+    top: 196px;
+    left: 100px;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.topic5 {
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 165px;
+    left: -163px;
+    font-size: 32px;
+
+}
+
+
+.p5 {
+    position: relative;
+    color: rgb(219, 187, 41);
+    top: 144px;
+    left: 118px;
+}
+
+.image_of_project5 {
+    border-radius: 10%;
+    transform: rotate(3deg);
+    box-shadow: 15px 15px 25px 0 rgba(0, 0, 0, .10196078431372549);
+    overflow: hidden;
+    position: relative;
+    left: -35px;
+
+}
+
+
+
+.r5{
+    background-color: rgb(219, 187, 41);
+    padding: 4px 7px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    top: 200px;
+    left: 121px;
+    transition: 0.5s;
+
+}
+
+.r5:hover{
+    transform: scale(1.5);
+}
+
+
+/* 6th project */
+
+
+
+.project6 {
+    display: flex;
+    background-color: #444444;
+    position: relative;
+    top: -7px
+}
+
+.detail6 {
+    width: 467px;
+    position: relative;
+    left: 227px;
+    top: 112px;
+    color: white;
+    font-size: 19px;
+    padding: 20px;
+}
+
+
+.topic6 {
+    color: white;
+    position: relative;
+    left: 246px;
+    top: 85px;
+    font-size: 33px;
+}
+
+
+.p6 {
+    color: rgb(219, 187, 41);
+    position: relative;
+    left: 245px;
+    top: 57px
+}
+
+.image_of_project6 {
+    border-radius: 10%;
+    transform: rotate(3deg);
+    box-shadow: 15px 15px 25px 0 rgba(0, 0, 0, .10196078431372549);
+    overflow: hidden;
+    position: relative;
+    left: 52px
+}
+
+
+
+.r6{
+    background-color: rgb(219, 187, 41);
+    padding: 4px 7px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    top: 120px;
+    left: 247px;
+    transition: 0.5s
+
+}
+
+.r6:hover{
+    transform: scale(1.5);
+}
+
+
+/* 7th project */
+
+
+.project7 {
+    display: flex;
+    background-color: #444444;
+    position: relative;
+    top: -7px;
+}
+
+.writing7 {
+    flex: 1;
+}
+
+.detail7 {
+    color: white;
+    width: 500px;
+    position: relative;
+    top: 196px;
+    left: 100px;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.topic7 {
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 165px;
+    left: -163px;
+    font-size: 32px;
+
+}
+
+
+.p7 {
+    position: relative;
+    color: rgb(219, 187, 41);
+    top: 144px;
+    left: 118px;
+}
+
+.image_of_project7 {
+    border-radius: 10%;
+    transform: rotate(3deg);
+    box-shadow: 15px 15px 25px 0 rgba(0, 0, 0, .10196078431372549);
+    overflow: hidden;
+    position: relative;
+    left: -35px;
+
+}
+
+
+.r7{
+    background-color: rgb(219, 187, 41);
+    padding: 4px 7px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    top: 213px;
+    left: 118px;
+    transition: 0.5s;
+
+}
+
+.r7:hover{
+    transform: scale(1.5);
+}
+
+/* footer part */
+
+
+.last-box {
+    position: relative;
+    top: -7px;
+    height: 100px
+}
+
+.lbox {
+    height: 166px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2d2e32;
+}
+
+
+section section div a i {
+    height: 32px;
+    width: 45px;
+    transition: all 0.5s linear;
+}
+
+section section div a:hover i {
+    transform: scale(1.5);
+}
+
+section section div a {
+    border-radius: 10px;
+    height: 49px;
+    width: 61px;
+    margin: 8px;
+    padding-top: 4px;
+    padding-left: 9px;
+    background-color: #444444;
+    border: transparent;
+}
+
+.iconssss {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    width: 355px;
+    justify-content: center;
+}
+
+.lname {
+    color: white;
+    font-size: 33px;
+    padding-top: 68px;
+    padding-right: 66px;
+}
+
+.lpara {
+    color: white;
+    padding-top: 78px;
+    font-size: 16px;
+}
+
+
+.fa-twitch {
+    color: rgb(219, 187, 41);
+}
+
+.fa-facebook {
+    color: rgb(219, 187, 41);
+
+}
+
+.fa-linkedin {
+    color: rgb(219, 187, 41);
+}
+
+.fa-behance {
+    color: rgb(219, 187, 41);
+
+}
+
+.last-box {
+    position: relative;
+}
+

@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2d2e32;
+    padding: 40px 0;
+}
+
+.inner-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    color: white;
+    font-size: 24px;
+    margin-right: 62px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 261px;
+    font-size: 23px;
+}
+
+nav ul li {
+    margin-right: 20px;
+    transition: 0.5s;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: underline;
+    margin-right: 34px;
+}
+
+nav ul li:hover {
+    transform: scale(1.5);
+}
+
+.btn {
+    background-color: rgb(219, 187, 41);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.5);
+}
+
+/* Middle Block  */
+
+.my-contacts-block {
+    display: flex;
+    background-color: #444444;
+}
+
+.intro-part {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.form {
+    flex: 1;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* form Icons */
+
+.name1 {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 145px;
+    left: 17px
+}
+
+.name-box {
+    height: 33px;
+    width: 252px;
+    border-radius: 20px;
+    border: 3px solid rgb(219, 187, 41);
+    position: relative;
+    top: 147px;
+    left: 29px;
+    background-color: #444444;
+}
+
+.bot {
+    background-color: rgb(219, 187, 41);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 21px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 195px;
+    left: 104px;
+    transition: 0.5s;
+}
+
+.bot:hover {
+
+    transform: scale(1.5);
+
+}
+
+.emaili {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 152px;
+    left: 24px;
+}
+
+.emaili-box {
+    height: 33px;
+    width: 252px;
+    border-radius: 20px;
+    border: 3px solid rgb(219, 187, 41);
+    position: relative;
+    top: 147px;
+    left: 29px;
+    background-color: #444444;
+}
+
+.msg {
+    color: white;
+    font-size: 23px;
+}
+
+.msg-area {
+    height: 200px;
+    width: 441px;
+    border-radius: 20px;
+    border: 3px solid rgb(219, 187, 41);
+    position: relative;
+    top: 175px;
+    background-color: #444444;
+}
+
+
+
+
+
+.cnt {
+    padding-top: 69px;
+    padding-left: 100px;
+    color: rgb(219, 187, 41);
+}
+
+.para1 {
+    padding-top: 17px;
+    color: white;
+    padding-left: 95px;
+    font-size: 35px;
+
+}
+
+.para2 {
+    color: white;
+    padding-left: 95px;
+    padding-top: 33px;
+    font-size: 20px;
+
+}
+
+.ph {
+    color: white;
+    padding-left: 141px;
+    padding-top: 53px;
+    font-size: 30px;
+}
+
+.ph1 {
+    color: white;
+    position: relative;
+    left: 208px;
+    top: 8px
+}
+
+
+.phone-icon {
+    height: 80px;
+    width: 85px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: #2d2e32;
+    margin-left: 114px;
+    border: transparent;
+}
+
+.fa-phone {
+    margin-top: 20px;
+    font-size: 37px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fa-phone:hover {
+
+    transition: 0.5s;
+    transform: scale(1.5);
+
+}
+
+
+
+.em {
+    color: white;
+    padding-left: 141px;
+    padding-top: 53px;
+    font-size: 30px;
+
+}
+
+.em1 {
+
+    color: white;
+    position: relative;
+    left: 208px;
+    top: 8px
+}
+
+
+.email-icon {
+    height: 80px;
+    width: 85px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: #2d2e32;
+    margin-left: 114px;
+    border: transparent;
+    position: relative;
+    top: -9px;
+    left: -2px;
+}
+
+
+.fa-envelope {
+    margin-top: 20px;
+    font-size: 37px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.fa-envelope:hover {
+
+    transition: 0.5s;
+    transform: scale(1.5);
+
+}
+
+section section div i {
+    color: rgb(219, 187, 41);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Last Block */
+
+
+.last-box {
+    position: relative;
+    top: -7px;
+    height: 100px
+}
+
+.lbox {
+    height: 166px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2d2e32;
+}
+
+
+section section div a i {
+    height: 32px;
+    width: 45px;
+    transition: all 0.5s linear;
+}
+
+section section div a:hover i {
+    transform: scale(1.5);
+}
+
+section section div a {
+    border-radius: 10px;
+    height: 49px;
+    width: 61px;
+    margin: 8px;
+    padding-top: 4px;
+    padding-left: 9px;
+    background-color: #444444;
+    border: transparent;
+}
+
+.iconssss {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    width: 355px;
+    justify-content: center;
+}
+
+.lname {
+    color: white;
+    font-size: 33px;
+    padding-top: 68px;
+    padding-right: 66px;
+}
+
+.lpara {
+    color: white;
+    padding-top: 78px;
+    font-size: 16px;
+}
+
+
+.fa-twitch {
+    color: rgb(219, 187, 41);
+}
+
+.fa-facebook {
+    color: rgb(219, 187, 41);
+
+}
+
+.fa-linkedin {
+    color: rgb(219, 187, 41);
+}
+
+.fa-behance {
+    color: rgb(219, 187, 41);
+
+}
+
+.last-box {
+    position: relative;
+}
+
+
+
